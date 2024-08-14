@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,14 +11,14 @@
 <header>
 	<div class="container">   
 		<div class="logo">
-			<img src="img/icon.svg" alt="logo" height="55">
+			<img src="img/icon.svg" alt="logo" height="52">
 		</div>
 			<h1 class="title">EYRE</h1>
 			<nav>
 				<ul>
-					<li><a href="#inicio">Inicío</a></li>
-					<li><a href="#indicacao">Indicações</a></li>
-					<li><a href="#livros">Livros</a></li>
+					<li><a href="#hero">Início</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#indicacoes">Indicações</a></li>
 					<li><a href="#contato">Contato</a></li>
 				</ul>
 			</nav>	
@@ -28,11 +28,53 @@
 <section id="hero">
 	<div class="container">
 		<h1 class="title-page">Embarque na aventura <br> da literatura</h1>
-		<h2>Torne esse hábito presente <br> em sua vida.</h2>
+		<h2 class="subtitle">Torne esse hábito presente <br> em sua vida.</h2>
 		<a href="#livros" class="cta-button">Saiba mais</a>
 	</div>
-</section
+</section>
 
+<section id="sobre" class="content-section">
+	<div class="container-first">
+		<h2>Sobre nós</h2>
+		<p>Esta página é um lugar onde pensamos em proporcionar um lugar seguro para leitores e para quem ama livros. Se você é novo por aqui, permita-se aventurar e embarcar no universo das páginas e suas histórias.</p>
+	</div>
+</section>
+
+<section id="indicacoes" class="content-section">
+	<div class="container-first">
+		<h2>Veja algumas indicações de livros</h2>
+		<ul class="indicadios">
+			<li>Romance</li>
+			<li>Fantasia</li>
+			<li>Distopia</li>
+			<li>Drama</li>
+		</ul>
+	</div>
+</section> <!-- Fechamento da tag section faltante -->
+
+<section id="contato" class="content-section">
+	<div class="container-first">
+		<h2>Contate-nos</h2>
+		<form action="#">
+			<label for="nome">Nome:</label>
+			<input type="text" id="nome" name="nome" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="mensagem">Mensagem</label>
+			<textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+			<button type="submit">Enviar</button>
+		</form>
+	</div>
+</section>
+
+<footer>
+	<div class="container-first">
+		<p>&copy; 2024 Eyre. Todos os direitos reservados.</p>
+	</div>
+</footer>
 
 </body>
 </html>
